@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0px;
+    color: #6a6e6a;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #6a6e6a;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white; 
+    padding: 20px;
+}
+
+.header-line {
+    border: none;
+    height: 4px;
+    background-color: #6a6e6a; 
+    margin: -5px 0;
+    width: 100%;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-bottom: -20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    flex: 1;
+    margin-top: -15px;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.experience, .education, .skills {
+    margin-bottom: 20px;
+}
+
+.skills {
+    justify-content: space-between;
+}
+
+.skills ul {
+    list-style: disc;
+    padding: 0;
+    margin-left: 20px; 
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+
+.skills ul li {
+    margin: 2px 0;
+    padding: 0; 
+    border: none; 
+    background: none; 
+    color: #333;
+    list-style-type: disc; 
+}
+
+.contact-info p {
+    color: rgb(0, 0, 0);
+}
+
+.contact-info a {
+    color: black; 
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.justified {
+    text-align: justify;
+    color: #333;
+}
